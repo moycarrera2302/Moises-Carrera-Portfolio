@@ -93,8 +93,7 @@ function TimelinePage() {
       blurb: 'From reference design to Gerber, bring-up to validation.',
       items: [
         { year: '2024',    dot: 'Mabe NTI, Artificial Vision & UX Research', detail: 'Usability testing on a vision-based refrigerator; 50% usability lift.' },
-        { year: '2022—24', dot: 'Innova · Resource Planning President', detail: 'Leadership diploma; tech strategy & org decision-making.' },
-        { year: '2024',    dot: 'Altium Education PCB Design Certificate', detail: 'Altium Education PCB Design Certificate' },
+        { year: '2022—24', dot: 'Innova · Resource Planning President', detail: 'Leadership diploma; tech strategy & org decision-making.' }
       ]
     },
     {
