@@ -70,7 +70,7 @@ function MabeCaseStudy() {
         <li>Interpreted hardware reference designs from senior engineers.</li>
         <li>Owned component footprint selection and placement strategy.</li>
         <li>Executed routing with trace-width, clearance, and thermal-relief rules.</li>
-        <li>Coordinated with external fabricator <b>AJ Electronic Design</b> (Zapopan) across <b>6 DFM rounds</b>.</li>
+        <li>Coordinated with external fabricator and hardware enginers across <b> DFM rounds</b>.</li>
         <li>Resolved footprint mismatches, clearance violations, and DC-DC converter pad issues.</li>
         <li>Performed full board bring-up: signal integrity and sensor reads.</li>
       </ul>)
