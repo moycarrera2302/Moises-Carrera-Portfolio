@@ -84,7 +84,6 @@ function MabeCaseStudy() {
           ['SMT Placements', '292 (SMD + mixed THT)'],
           ['Supply Voltages', '12 V (DC), 5 V (DC), 3.3 V (DC), 127 V (AC)'],
           ['MCU Interface', 'Raspberry Pi · SPI / UART'],
-          ['Fabricator', 'AJ Electronic Design, Zapopan, Jalisco'],
           ['DFM Rounds', '6 iterative review cycles'],
           ['Sensor Coverage', 'Humidity · Temperature · Voltage · Current · Fan Speed'],
         ].map(([k, v]) => (
