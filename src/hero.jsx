@@ -52,7 +52,7 @@ function HeroPcb() {
           <div style={{ maxWidth: 340 }}>
             <div className="mono" style={{ color: 'var(--teal)', marginBottom: 10 }}>// CURRENTLY</div>
             <div style={{ fontSize: 15, lineHeight: 1.55, opacity: 0.8 }}>
-              MS ESTEEM @ Notre Dame '26 · Product Growth @ Irish Nostalgia · Advising Tycho.AI on commercial drone strategy.
+              MS ESTEEM @ Notre Dame '26 · Product Growth @ Irish Nostalgia.
             </div>
           </div>
         </div>
