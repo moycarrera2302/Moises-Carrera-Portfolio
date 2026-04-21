@@ -133,9 +133,8 @@ function TychoPage() {
           <div className="mono" style={{ color: 'var(--teal)', marginBottom: 10 }}>// Scope</div>
           <ul style={{ paddingLeft: '1.1em', fontSize: 15.5, lineHeight: 1.7 }}>
             <li>Technical and customer discovery interviews.</li>
-            <li>Evaluated performance requirements, failure modes, and adoption barriers for autonomous drone navigation in commercial environments.</li>
-            <li style={{ height: 0 }}>Supported commercialization planning and sequencing.</li>
-            <li>Cross-functional reporting translating engineering constraints into business language.</li>
+            <li>Supported commercialization planning and sequencing.</li>
+            <li>Cross-functional translating engineering terms into business language.</li>
           </ul>
           <div className="mono" style={{ marginTop: 28, opacity: 0.55, fontSize: 11 }}>
           </div>
