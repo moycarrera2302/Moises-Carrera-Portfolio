@@ -29,7 +29,7 @@ function MabeHero() {
           Mabe<br/><em style={{ color: 'var(--blue)', fontStyle: 'italic' }}>TyP.</em>
         </h1>
         <div style={{ marginTop: 28, fontFamily: 'var(--serif)', fontSize: 26, maxWidth: 760, opacity: 0.8 }}>
-          An end-to-end connected refrigerator platform for <b>Mabe's New Technology & Innovation</b> division. Two production PCBs, 20+ sensors, six DFM cycles, one ten-unit production run.
+          An end-to-end connected refrigerator platform for <b>Mabe's New Technology & Innovation</b> division. Two PCBs, 20+ sensors, six DFM cycles, one ten-unit production run.
         </div>
         <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap', marginTop: 28 }}>
           {['Altium Designer', '2-Layer Boards', 'SMD + THT', 'JST ZHR Harness', 'Raspberry Pi · SPI / UART', 'DFM'].map(t => (
@@ -61,13 +61,13 @@ function MabeCaseStudy() {
   const tabs = [
     { id: 'context', label: 'Context',
       body: (<>
-        <p>Mabe's NTI division wanted a connected-refrigerator platform capable of telemetry, shelf-presence detection, and voice/vision interaction. I joined under a senior hardware engineer and took full ownership of the PCB lifecycle — schematic capture, layout, fabrication coordination, and bring-up.</p>
+        <p>Mabe's NTI division wanted a connected-refrigerator platform capable of shelf-presence detection and temperature, humidity, and fridge traction. I joined under a senior hardware engineer and took full ownership of the PCB lifecycle, schematic capture, layout, fabrication coordination, and bring-up.</p>
         <p>Two boards: a <b>Main Controller</b> (150 × 150 mm) and a compact <b>Liner Board</b> carrying an LED / rack-detection subsystem over a custom magnetic harness.</p>
       </>)
     },
     { id: 'role', label: 'My Role',
       body: (<ul>
-        <li>Interpreted hardware reference designs from senior engineers.</li>
+        <li>Interpreted hardware reference designs from senior engineers and DC power supply redesign.</li>
         <li>Owned component footprint selection and placement strategy.</li>
         <li>Executed routing with trace-width, clearance, and thermal-relief rules.</li>
         <li>Coordinated with external fabricator and hardware enginers across <b> DFM rounds</b>.</li>
@@ -83,7 +83,6 @@ function MabeCaseStudy() {
           ['Unique MPNs', '43 components'],
           ['SMT Placements', '292 (SMD + mixed THT)'],
           ['Supply Voltages', '12 V (DC), 5 V (DC), 3.3 V (DC), 127 V (AC)'],
-          ['MCU Interface', 'Raspberry Pi · SPI / UART'],
           ['DFM Rounds', '6 iterative review cycles'],
           ['Sensor Coverage', 'Humidity · Temperature · Voltage · Current · Fan Speed'],
         ].map(([k, v]) => (
@@ -93,7 +92,7 @@ function MabeCaseStudy() {
     },
     { id: 'outcomes', label: 'Outcomes',
       body: (<ul>
-        <li>2 production-ready Gerber files submitted to fabricator.</li>
+        <li> Production-ready Gerbers files submitted to the fabricator.</li>
         <li>Full BOM: 43 unique MPNs, 292 SMT placements (Main Board).</li>
         <li>Technical validation report delivered to cross-functional teams.</li>
         <li>Magnetic harness design for Liner Board shelf-tracking subsystem.</li>
