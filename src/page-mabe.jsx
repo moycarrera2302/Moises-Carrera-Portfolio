@@ -341,7 +341,6 @@ function MabeOutcomes() {
   const counters = [
     { n: '10', l: 'Production units' },
     { n: '6',  l: 'DFM rounds' },
-    { n: '2',  l: 'Gerber releases' },
     { n: '50%', l: 'Usability lift · UX study' },
   ];
   return (
